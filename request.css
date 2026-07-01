@@ -1,0 +1,122 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body .main-container.single-column {
+    display: block !important;          
+    width: 100% !important;
+    max-width: 550px !important;         
+    margin: 80px auto 40px auto !important;
+    padding: 0 20px !important;
+}
+
+
+.form-card {
+    background-color: #1f1f1f;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 30px !important;
+    display: flex !important;
+    flex-direction: column !important;  
+    width: 100% !important;
+}
+
+
+.form-card h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 10px !important;
+    line-height: 1.3;
+}
+
+
+.form-card p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 25px !important;
+    line-height: 1.5;
+}
+
+
+.form-group {
+    margin-bottom: 18px !important;
+    display: flex !important;
+    flex-direction: column !important; 
+    width: 100% !important;
+}
+
+
+.form-group label {
+    margin-bottom: 8px !important;
+    font-size: 14px;
+    color: #bbb;
+    font-weight: 500;
+}
+
+.form-input {
+    background-color: #333 !important;
+    border: 1px solid #444 !important;
+    color: #ffffff !important;
+    padding: 12px !important;
+    border-radius: 4px !important;
+    outline: none !important;
+    font-size: 15px !important;
+    width: 100% !important;              
+    box-sizing: border-box !important;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+
+.form-input:focus {
+    border-color: #e50914 !important;    
+    background-color: #262626 !important; 
+}
+
+
+.error-msg {
+    color: #e50914 !important;
+    font-size: 13px;
+    margin-top: 6px !important;
+    min-height: 18px; 
+    display: block !important;
+    font-weight: 500;
+}
+
+
+.submit-btn {
+    background-color: #e50914 !important;
+    color: #ffffff !important;
+    border: none !important;
+    padding: 14px !important;
+    width: 100% !important;
+    border-radius: 4px !important;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px !important;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.submit-btn:hover {
+    background-color: #b80710 !important;
+}
+
+.submit-btn:active {
+    transform: scale(0.98) !important;   
+}
+
+
+@media (min-width: 768px) {
+    body .main-container.single-column {
+        margin-top: 70px !important;    
+    }
+
+    .form-card {
+        padding: 40px !important;       
+    }
+}

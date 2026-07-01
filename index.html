@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo.Movies ქართული ფილმები</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">Geo.Movies</div>
+                <form id="search_form">
+                    <input type="text" name="search" class="search-bar" placeholder="მოძებნე ფილმი...">
+                    <button type="submit">ძებნა</button>
+                </form>
+            </div>
+            <nav class="nav-right">
+                <a href="index.html" class="nav-link active">მთავარი</a>
+                <a href="favorites.html" class="nav-link">ფავორიტები</a>
+                <a href="request.html" class="nav-link">ფილმის მოთხოვნა</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container">
+        
+        <aside class="left-sidebar">
+            <div class="card filter-card">
+                <h3>კატეგორიები</h3>
+                <ul class="genres-list">
+                    <li class="active">ყველა</li>
+                    <li>კომედია</li>
+                    <li>დრამა</li>
+                    <li>კლასიკა</li>
+                    <li>დოკუმენტური</li>
+                </ul>
+            </div>
+        </aside>
+
+        <section class="feed-section">
+            <h2 class="section-title">პოპულარული ფილმები</h2>
+            
+            <div id="movies-grid" class="movies-grid">
+                </div>
+        </section>
+
+        <aside class="right-sidebar">
+            <div class="card news-card">
+                <h3>დღის რეკომენდაცია</h3>
+                <div class="featured-movie">
+                    <h4>"ცისფერი მთები ანუ დაუჯერებელი ამბავი"</h4>
+                    <p>ჟანრი: კომედია, დრამა</p>
+                    <p>წელი: 1983</p>
+                </div>
+            </div>
+        </aside>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

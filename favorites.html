@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoMovies ჩემი ფავორიტები</title>
+    <link rel="stylesheet" href="./favorites.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="logo">Geo.Movies</div>
+            </div>
+            <nav class="nav-right">
+                <a href="index.html" class="nav-link">მთავარი</a>
+                <a href="favorites.html" class="nav-link active">ფავორიტები</a>
+                <a href="request.html" class="nav-link">ფილმის მოთხოვნა</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-container single-column">
+        <section class="feed-section">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                <h2>ჩემი ფავორიტი ფილმები</h2>
+                <button id="clear-favs" class="clear-btn">ყველას წაშლა</button>
+            </div>
+            
+            <div id="favorites-grid" class="movies-grid">
+                </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
