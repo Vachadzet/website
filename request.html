@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ka">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geo.Movies ფილმის მოთხოვნა</title>
-    <link rel="stylesheet" href="./request.css">
-    <link rel="stylesheet" href="./style.css">
-    
-    
+    <title>Geo.Movies - ფილმის მოთხოვნა</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="request.css">
 </head>
 <body>
 
@@ -16,6 +15,7 @@
             <div class="nav-left">
                 <div class="logo">Geo.Movies</div>
             </div>
+
             <nav class="nav-right">
                 <a href="index.html" class="nav-link">მთავარი</a>
                 <a href="favorites.html" class="nav-link">ფავორიტები</a>
@@ -23,38 +23,39 @@
             </nav>
         </div>
     </header>
-    
-<main class="main-container single-column">
-    <div class="card form-card">
-        <h2>გვითხარით სასურველი ქართული ფილმი</h2>
-        <p>შეავსეთ ფორმა და ჩვენ დავამატებთ ფილმს კატალოგში</p>
 
-            
+    <main class="main-container single-column">
+        <div class="card form-card">
+            <h2>გვითხარით სასურველი ქართული ფილმი</h2>
+            <p>შეავსეთ ფორმა და ჩვენ დავამატებთ ფილმს კატალოგში.</p>
+
             <form id="request-form" novalidate>
                 <div class="form-group">
                     <label for="username">თქვენი სახელი (მინ. 3 ასო):</label>
                     <input type="text" id="username" class="form-input">
-                    <span class="error-msg" id="name-error"></span>
+                    <span id="name-error" class="error-msg"></span>
                 </div>
 
                 <div class="form-group">
                     <label for="email">ელ-ფოსტა:</label>
                     <input type="email" id="email" class="form-input">
-                    <span class="error-msg" id="email-error"></span>
+                    <span id="email-error" class="error-msg"></span>
                 </div>
 
                 <div class="form-group">
                     <label for="movie-title">ფილმის დასახელება:</label>
                     <input type="text" id="movie-title" class="form-input">
-                    <span class="error-msg" id="title-error"></span>
+                    <span id="title-error" class="error-msg"></span>
                 </div>
 
                 <button type="submit" class="submit-btn">გაგზავნა</button>
             </form>
-            <div id="success-message" style="display:none; color: #2ecc71; margin-top: 15px; font-weight: bold;"></div>
+
+            <div id="success-message" class="success-message"></div>
         </div>
     </main>
 
     <script src="script.js"></script>
+
 </body>
 </html>
