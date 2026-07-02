@@ -1,3 +1,74 @@
+Skip to content
+Vachadzet
+website
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+Insights
+Settings
+
+You now have push access to the Vachadzet/website repository. 
+website
+/
+request.css
+in
+main
+
+Edit
+
+Preview
+Indent mode
+
+Spaces
+Indent size
+
+4
+Line wrap mode
+
+No wrap
+Editing request.css file contents
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
 
 *,
 *::before,
@@ -34,79 +105,5 @@
 .form-card p {
     font-size: 14px;
     color: #aaa;
-    margin-bottom: 25px;
-    line-height: 1.5;
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 18px;
-}
-
-.form-group label {
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #bbb;
-}
-
-.form-input {
-    width: 100%;
-    padding: 12px;
-    background-color: #333;
-    color: #ffffff;
-    border: 1px solid #444;
-    border-radius: 4px;
-    font-size: 15px;
-    outline: none;
-    transition: border-color 0.3s ease,
-                background-color 0.3s ease;
-}
-
-.form-input:focus {
-    border-color: #e50914;
-    background-color: #262626;
-}
-
-.error-msg {
-    display: block;
-    min-height: 18px;
-    margin-top: 6px;
-    color: #e50914;
-    font-size: 13px;
-    font-weight: 500;
-}
-
-.submit-btn {
-    width: 100%;
-    padding: 14px;
-    margin-top: 10px;
-    background-color: #e50914;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.2s ease,
-                transform 0.1s ease;
-}
-
-.submit-btn:hover {
-    background-color: #b80710;
-}
-
-.submit-btn:active {
-    transform: scale(0.98);
-}
-
-@media (min-width: 768px) {
-    .main-container.single-column {
-        margin-top: 70px;
-    }
-
-    .form-card {
-        padding: 40px;
-    }
-}
+Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
+ 
